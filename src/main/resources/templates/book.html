@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avenger</title>
+</head>
+<body>
+<h1>Welcome to Book management system</h1>
+<hr/>
+<h2>View all books</h2>
+<div style = "text-align: center;">
+    <img th:src="${book.thumbnail}" style="width: 350px; height: 300px;"/>
+    <h3 th:text="${book.code}"></h3>
+    <h3 th:text="${book.title}"></h3>
+    <h3 th:text="${book.desc}"></h3>
+</div>
+
+</body>
+</html>
